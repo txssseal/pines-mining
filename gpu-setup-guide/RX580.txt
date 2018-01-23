@@ -1,0 +1,7 @@
+1. plug in single bios to mobo and launch ethos(or any OS)
+2. check if we have the bios already for that memory?
+  a. If we dont run `sudo atiflash -s 0 backuprom.rom'
+    i. launch polaris bios editor and do the oneclick timing
+    ii. save new bios and then flash the gpu with `sudo atiflash -p newbios.rom`    iii. reboot and see if it worked
+  b. if we do have the memory run `sudo atiflash -p moddedbios.rom`
+3. reboot and see if everything worked 
