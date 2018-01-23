@@ -1,0 +1,5 @@
+1. Flash most recent bios
+2. Enable 4g Decode
+3. Set pcie configs to Gen2
+4. Disable audio
+5. Disable wifi
